@@ -16,6 +16,7 @@ def join_ingredients(src)
         p2 = src[row_index][element_index].to_s + " on my pizza"
         p = p1 + p2
         stringarray.push(p)
+        element_index += 1
       end
       row_index +=1
     end
