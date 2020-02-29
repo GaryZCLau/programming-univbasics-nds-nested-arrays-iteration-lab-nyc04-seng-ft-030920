@@ -54,7 +54,7 @@ def find_greater_pair(src)
         end
         row_index += 1
     end
-    stringarray
+    greaterarray
 end
 
 def total_even_pairs(src)
